@@ -31,10 +31,10 @@ describe('OutageController', () => {
     expect(await controller.getOutages()).toEqual([]);
   });
 
-  it('should be return outages as an array', async () => {
+  it('should be return nothing, just 200 response code', async () => {
     const siteId = 'test';
     const dto = new PostOutageDTO();
     const dtos = [dto];
-    expect(await controller.postOutages(siteId, dtos)).toEqual([]);
+    expect(await controller.postOutages(siteId, dtos)).toEqual(undefined);
   });
 });
