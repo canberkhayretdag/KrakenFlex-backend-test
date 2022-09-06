@@ -1,7 +1,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+KrakenFlex Back End Test Case - Tech Stack: NodeJS (with NestJS) + TypeScript + MongoDB
 
 ## Installation
 
