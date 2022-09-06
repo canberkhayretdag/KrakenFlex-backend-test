@@ -3,6 +3,8 @@
 
 KrakenFlex Back End Test Case - Tech Stack: NodeJS (with NestJS) + TypeScript + MongoDB
 
+! Insert your API key and MongoDB connection string to .env file
+
 ## Installation
 
 ```bash
